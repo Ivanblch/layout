@@ -1,0 +1,345 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+ header{
+	display: flex;
+	justify-content: center;
+	
+}
+body {
+	background: url(img/background.png) no-repeat 50% 71% #0084ca;	
+}
+
+.ozon {
+	display: flex;
+	justify-content: center;
+}
+
+.phone{  
+	display: flex;
+	justify-content: flex-end;
+	position:fixed;
+	right:0;
+}
+.on-line{
+	display: flex;
+	background-color: #ffffffe8;
+	border-radius: 30px;
+	padding-left: 15px;
+	height : 74px; 
+	width: 480px;
+	font-size: 25px;
+	margin-right: -425px;
+
+}
+
+.on-line:hover {
+	margin-right: -200px;
+}
+
+.birthday {
+    display: flex;
+    flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+
+.photo {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	border-radius: 50px;
+	padding-left: 15px;
+	height : 100%; 
+	width: 80%;
+	font-size: 30px;
+	
+}
+
+.desire{
+	display: flex;
+	justify-content: center;	
+	font-size: 60px;
+	color: #ffea00;
+	margin: 40px 0px;
+}
+
+.text {
+	display: flex;
+	align-items: center;
+    justify-content:center;
+	flex-direction: column;
+	color: white;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.button {
+	background: linear-gradient(to bottom, rgba(255,183,107,1) 0%,rgba(255,167,61,1) 30%,rgba(255,167,61,1) 36%,rgba(255,124,0,1) 60%,rgba(255,127,4,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 35px;
+    height: 70px;
+    width: 400px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 28px;
+    margin: 25px 0px;
+}
+
+.start {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	margin-top:30px;
+}
+
+.description {
+	text-align: center;
+    width: 760px;
+	font-size: 30px;
+    color: #ff9200;
+	line-height: 50px;
+}
+
+.icons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 278px;
+	margin-left: -190px
+}
+
+.icons div {
+    width: 220px;
+}
+.choice {
+	display: flex;
+	justify-content: center;
+	height: 50px;
+}
+
+.choice span {
+    width: 220px;
+    text-align: center;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.ozon {
+	color: blue;
+}
+
+.board {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin-top: 60px;
+	
+}
+
+.pres{
+	display: flex;
+	justify-content: center;
+	text-align:center;	
+	font-size: 44pt;
+	color: white;
+	margin: 50px 0px;
+	width: 680px;
+	line-height: 50px;
+}
+
+.certificate {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 28px;
+	color: white;
+	font-weight: bold;
+	margin: 5px 0px;
+}
+
+table {
+	display: flex;
+	justify-content: center;
+    
+    
+}
+
+th, td {
+    text-align: left;
+    color: white;
+	font-size: 15px;
+	border-bottom: 1px solid #7be3ff;
+	padding: 15px;
+	font-weight: lighter;
+}
+
+.buy {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 44px;
+    color: #ff9200;
+	line-height: 50px;
+	font-weight: bold; 	
+	margin-top: 60px;
+}
+
+.buy-cer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.buy-cer div{
+	display: flex;
+	justify-content: center;
+	height: 50%;
+	width: 313px;
+
+}
+
+.buy-cer1 {
+	display: flex;
+	align-items: baseline;
+	justify-content: center;
+	height: 50px;
+}
+
+.buy-cer1 span {
+    text-align: center;
+    font-size: 14px;
+    line-height: 22px;
+	width: 230px;
+	margin: 0px 45px;
+}
+
+ul {
+    padding-left: 45px;
+	list-style-type: disc;
+	text-align: left;
+}
+
+
+li {
+	color: orange;
+}
+
+li span {
+	color: black;
+}
+
+.test  {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+}
+
+.test2 {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 44px;
+    color: #ff9200;
+	line-height: 50px;
+	font-weight: bold; 	
+	margin-top: 150px;
+}
+
+.buttons {
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	margin-top:25px;
+}
+
+.buttons a {
+	background: linear-gradient(to bottom, #ffb76b 0%,#ffa73d 30%,#f09f3d 30%,#ff7c00 60%,#ff7f04 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 70px;
+	width: 250px;
+	text-align: center;
+    text-decoration: none;
+	border-radius: 35px;
+	margin: 20px 25px;
+	font-size: 20px;
+	color: white;
+	padding: 0px 10px;	
+	line-height: 22px;
+}
+
+
+
+.start-buy {
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	font-size: 44px;
+    color: white;
+	line-height: 50px;
+	font-weight: bold; 	
+	margin-top: 220px;
+}
+
+.cd {
+	display: flex;
+}
+
+.purchase {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 25px;
+} 
+
+.sub{
+	display: flex;
+	align-items: center;
+	justify-content: center;	
+	flex-direction: column;
+	font-size: 22px;
+}
+
+.button-buy {
+	background: linear-gradient(to bottom, #6db3f2 7%,rgba(84,163,238,1) 30%,rgba(11,125,239,1) 50%,rgba(30,105,222,1) 100%);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 25px;
+	color: white;
+	margin: 35px 0px;
+}
+
+.price {
+	background: linear-gradient(to bottom, rgb(247, 244, 244) 0%,rgba(241,241,241,1) 50%,rgba(225,225,225,1) 50%,rgba(246,246,246,1) 100%);
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 50px;
+	width: 250px;
+	border-radius: 25px;
+	padding: 0px 20px;
+	font-size: 22px;
+}
+
+.comment{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	color: #7be3ff;
+	margin: 80px 0px 25px 0px;
+}
+
+
